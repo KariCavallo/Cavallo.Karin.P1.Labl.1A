@@ -21,12 +21,22 @@ char mostrarMenu()
     printf("G- Listar servicios\n");
     printf("H- Alta trabajo\n");
     printf("I- Listar trabajos\n");
-    printf("J- Salir\n");
+    printf("J- Listar Autos por color\n");
+    printf("K- Listar Autos por marca\n");
+    printf("L- Mostrar promedio por tipo de caja\n");
+    printf("M- Listar autos por tipo de caja\n");
+    printf("N- Contar Autos de un color y una marca\n");
+    printf("O- Listar Autos por marca mas elegida\n");
+    printf("P- Listar Trabajos de un Auto\n");
+    printf("Q- Mostrar importes de un Auto\n");
+    printf("R- Mostrar trabajos por Servicio\n");
+    printf("S- Mostrar trabajos por Fecha\n");
+    printf("T- Salir\n");
     printf("Ingrese opcion: ");
     fflush(stdin);
     scanf("%c", &opcion);
 
-  opcion = toupper(opcion);
+    opcion = toupper(opcion);
 
     return opcion;
 }

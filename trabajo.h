@@ -28,3 +28,5 @@ int altaTrabajo(eTrabajo vec[], int tamt, eAuto autos[], int tama, eMarca marcas
 int mostrarTrabajo(eTrabajo e,eServicio servicios[], int tams);
 
 int listarTrabajo(eTrabajo vec[], int tamt, eAuto autos[], int tama ,eServicio servicios[], int tams);
+
+int hardcodeaTrabajos(int* pLegajo,eTrabajo vec[],int tamt, int cant, int* flagTrabajo);

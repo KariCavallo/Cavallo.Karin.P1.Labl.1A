@@ -6,6 +6,8 @@
 #include "servicio.h"
 #include "auto.h"
 #include "trabajo.h"
+#include "informes.h"
+#include "fecha.h"
 
 #define TAM 5
 #define TAMS 4
@@ -24,6 +26,7 @@ int main()
 
     eAuto autos[TAMA];
     eTrabajo trabajos[TAMT];
+    eFecha fecha[TAMT];
 
 
     eMarca marcas[TAM] =
@@ -55,6 +58,9 @@ int main()
 
     inicializarAutos(autos,TAMA);
     inicializarTrabajo(trabajos,TAMT);
+
+    hardcodearAutos(&id,autos,TAMA,10,&flag);
+    hardcodeaTrabajos(&idTrabajo,trabajos,TAMT,10,&flagTrabajo);
 
     do
     {
@@ -141,20 +147,22 @@ int main()
 
         case 'H':
 
-             if(flag == 1){
+            if(flag == 1)
+            {
 
 
 
-                            if(   altaTrabajo(trabajos, TAMT, autos, TAMA,  marcas,TAM, TAMS,colores,servicios, &idTrabajo, &flagTrabajo) == 0)
-                                {
-                                printf("Problema al hacer la alta del trabajo\n");
-                                }
+                if(   altaTrabajo(trabajos, TAMT, autos, TAMA,  marcas,TAM, TAMS,colores,servicios, &idTrabajo, &flagTrabajo) == 0)
+                {
+                    printf("Problema al hacer la alta del trabajo\n");
+                }
 
-             }
-             else {
+            }
+            else
+            {
 
-                            printf("Primero debe hacer el alta de un auto\n");
-                        }
+                printf("Primero debe hacer el alta de un auto\n");
+            }
 
 
             break;
@@ -162,11 +170,74 @@ int main()
         case 'I':
 
             listarTrabajo(trabajos,TAMT,autos,TAMA, servicios,TAMS);
-           break;
+            break;
 
 
 
         case 'J':
+
+            informarAutosColor(autos,TAMA,marcas,colores,TAM);
+
+            break;
+
+
+        case 'K':
+
+            informarAutosMarca(autos,TAMA,marcas,colores,TAM);
+
+            break;
+
+
+        case 'L':
+
+            porcentajePorCaja(autos,TAMA,marcas,colores,TAM);
+
+            break;
+
+        case 'M':
+
+            listarAutosPorCaja(autos,TAMA,marcas,colores,TAM);
+
+            break;
+
+
+        case 'N':
+
+            contarAutosPorColorMarca(autos,TAMA,marcas,colores,TAM);
+
+            break;
+
+        case 'O':
+
+            listarAutosPorMarcaMasElegida(autos,TAMA,marcas,colores,TAM);
+
+            break;
+
+        case 'P':
+
+            informarTrabajosAuto(trabajos,TAMT,autos,TAMA,marcas,colores,TAM, servicios, TAMS);
+
+            break;
+
+        case 'Q':
+
+            MostrarInformesAuto(trabajos,TAMT,autos,TAMA, marcas,colores,TAM,servicios,TAMS);
+
+            break;
+
+        case 'R':
+
+            mostrarServicioPorAuto(trabajos,TAMT,autos,TAMA,marcas,colores,TAM,servicios,TAMS);
+
+            break;
+
+        case 'S':
+
+            mostrarTrabajoPorFecha(trabajos,TAMT,autos,TAMA,marcas,colores,TAM,servicios,TAMS,fecha);
+
+            break;
+
+        case 'T':
 
             confirmarSalida(&seguir, 'n', 's');
 

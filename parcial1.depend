@@ -182,3 +182,244 @@
 	<stdio.h>
 	<stdlib.h>
 
+1666190656 source:c:\users\gtx computacion\desktop\tps programacion\parcial1\validaciones.c
+	"validaciones.h"
+	"marca.h"
+	"color.h"
+	"servicio.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1666717885 source:c:\users\gtx computacion\desktop\parcial1\auto.c
+	"auto.h"
+	"marca.h"
+	"color.h"
+	"servicio.h"
+	"validaciones.h"
+	"menu.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1666709398 c:\users\gtx computacion\desktop\parcial1\auto.h
+	"marca.h"
+	"color.h"
+	"servicio.h"
+
+1666190258 c:\users\gtx computacion\desktop\parcial1\marca.h
+
+1666190258 c:\users\gtx computacion\desktop\parcial1\color.h
+
+1666190258 c:\users\gtx computacion\desktop\parcial1\servicio.h
+
+1666189303 c:\users\gtx computacion\desktop\parcial1\validaciones.h
+	"marca.h"
+	"color.h"
+	"servicio.h"
+	"fecha.h"
+	"auto.h"
+
+1666187715 c:\users\gtx computacion\desktop\parcial1\fecha.h
+
+1666186806 c:\users\gtx computacion\desktop\parcial1\menu.h
+
+1666190164 source:c:\users\gtx computacion\desktop\parcial1\color.c
+	"color.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1666187746 source:c:\users\gtx computacion\desktop\parcial1\fecha.c
+	"fecha.h"
+
+1666721455 source:c:\users\gtx computacion\desktop\parcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"marca.h"
+	"color.h"
+	"servicio.h"
+	"auto.h"
+	"trabajo.h"
+	"informes.h"
+
+1666710259 c:\users\gtx computacion\desktop\parcial1\trabajo.h
+	"fecha.h"
+	"auto.h"
+	"marca.h"
+	"color.h"
+
+1666190163 source:c:\users\gtx computacion\desktop\parcial1\marca.c
+	"marca.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1666721394 source:c:\users\gtx computacion\desktop\parcial1\menu.c
+	"menu.h"
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1666710194 source:c:\users\gtx computacion\desktop\parcial1\servicio.c
+	"servicio.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1666721829 source:c:\users\gtx computacion\desktop\parcial1\trabajo.c
+	"trabajo.h"
+	"marca.h"
+	"validaciones.h"
+	"color.h"
+	"servicio.h"
+	"auto.h"
+	<stdio.h>
+	<stdlib.h>
+
+1666190656 source:c:\users\gtx computacion\desktop\parcial1\validaciones.c
+	"validaciones.h"
+	"marca.h"
+	"color.h"
+	"servicio.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1666721798 source:c:\users\gtx computacion\desktop\parcial1\informes.c
+	"informes.h"
+	"menu.h"
+	"marca.h"
+	"color.h"
+	"auto.h"
+	"validaciones.h"
+	"trabajo.h"
+	<stdio.h>
+	<stdlib.h>
+
+1666721404 c:\users\gtx computacion\desktop\parcial1\informes.h
+	"menu.h"
+	"marca.h"
+	"color.h"
+	"auto.h"
+	"trabajo.h"
+
+1666717885 source:c:\users\gtx computacion\desktop\parcialconinformes\parcial1\auto.c
+	"auto.h"
+	"marca.h"
+	"color.h"
+	"servicio.h"
+	"validaciones.h"
+	"menu.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1666792959 c:\users\gtx computacion\desktop\parcialconinformes\parcial1\auto.h
+	"marca.h"
+	"color.h"
+	"servicio.h"
+
+1666190258 c:\users\gtx computacion\desktop\parcialconinformes\parcial1\marca.h
+
+1666190258 c:\users\gtx computacion\desktop\parcialconinformes\parcial1\color.h
+
+1666190258 c:\users\gtx computacion\desktop\parcialconinformes\parcial1\servicio.h
+
+1666792927 c:\users\gtx computacion\desktop\parcialconinformes\parcial1\validaciones.h
+	"marca.h"
+	"color.h"
+	"servicio.h"
+	"fecha.h"
+	"auto.h"
+
+1666187715 c:\users\gtx computacion\desktop\parcialconinformes\parcial1\fecha.h
+
+1666186806 c:\users\gtx computacion\desktop\parcialconinformes\parcial1\menu.h
+
+1666190164 source:c:\users\gtx computacion\desktop\parcialconinformes\parcial1\color.c
+	"color.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1666187746 source:c:\users\gtx computacion\desktop\parcialconinformes\parcial1\fecha.c
+	"fecha.h"
+
+1666792936 source:c:\users\gtx computacion\desktop\parcialconinformes\parcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"marca.h"
+	"color.h"
+	"servicio.h"
+	"auto.h"
+	"trabajo.h"
+	"informes.h"
+	"fecha.h"
+
+1666750192 c:\users\gtx computacion\desktop\parcialconinformes\parcial1\trabajo.h
+	"fecha.h"
+	"auto.h"
+	"marca.h"
+	"color.h"
+
+1666788455 c:\users\gtx computacion\desktop\parcialconinformes\parcial1\informes.h
+	"menu.h"
+	"marca.h"
+	"color.h"
+	"auto.h"
+	"trabajo.h"
+	"fecha.h"
+
+1666190163 source:c:\users\gtx computacion\desktop\parcialconinformes\parcial1\marca.c
+	"marca.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1666789040 source:c:\users\gtx computacion\desktop\parcialconinformes\parcial1\menu.c
+	"menu.h"
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1666710194 source:c:\users\gtx computacion\desktop\parcialconinformes\parcial1\servicio.c
+	"servicio.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1666721829 source:c:\users\gtx computacion\desktop\parcialconinformes\parcial1\trabajo.c
+	"trabajo.h"
+	"marca.h"
+	"validaciones.h"
+	"color.h"
+	"servicio.h"
+	"auto.h"
+	<stdio.h>
+	<stdlib.h>
+
+1666792927 source:c:\users\gtx computacion\desktop\parcialconinformes\parcial1\validaciones.c
+	"validaciones.h"
+	"marca.h"
+	"color.h"
+	"servicio.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1666790516 source:c:\users\gtx computacion\desktop\parcialconinformes\parcial1\informes.c
+	"informes.h"
+	"validaciones.h"
+	"marca.h"
+	"color.h"
+	"servicio.h"
+	"auto.h"
+	"trabajo.h"
+	<stdio.h>
+	<stdlib.h>
+

@@ -343,7 +343,7 @@ int ordenoPorMarcaYCaja(eAuto autos[], int tama)
             for(int j= i + 1; j < tama; j++)
             {
 
-                if(autos[i].caja >  autos[j].caja && autos[i].idMarca == autos[j].idMarca)
+                if(autos[i].caja >  autos[j].caja || (autos[i].caja == autos[j].caja && autos[i].idMarca > autos[j].idMarca))
                 {
                     auxAuto = autos[i];
                     autos[i] = autos[j];
@@ -360,4 +360,41 @@ int ordenoPorMarcaYCaja(eAuto autos[], int tama)
 
     return todoOk;
 
+}
+
+int hardcodearAutos(int* pLegajo,eAuto vec[],int tama, int cant, int* flag)
+{
+
+    int todoOk = 0;
+    eAuto almacenAutos[] =
+    {
+        {1,5004, 1003,'m',0},
+        {2, 5000, 1000,'m',0},
+        {3, 5001,1004,'a',0},
+        {4, 5002, 1002,'m',0},
+        {5, 5003, 1003,'a',0},
+        {6,5000, 1004,'m',0},
+        {7, 5002, 1000,'m',0},
+        {8, 5004, 1002,'a',0},
+        {9, 5000, 1004,'m',0},
+        {10, 5003, 1003,'a',0}
+    };
+
+    if(vec != NULL && tama > 0 && cant <= tama && cant <= 10)
+    {
+
+        for(int i = 0; i < cant; i++)
+        {
+
+            vec[i] = almacenAutos[i];
+            *pLegajo = *pLegajo + 1;
+            *flag = 1;
+        }
+
+
+        todoOk = 1;
+    }
+
+
+    return todoOk;
 }
